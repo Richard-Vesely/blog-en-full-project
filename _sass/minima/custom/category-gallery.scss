@@ -19,7 +19,7 @@
 
 /* Style for cards based on data-category */
 .blog-card[data-category="science"] {
-  background: linear-gradient(to right top, #d3e2f3, #ffffff);
+  background: linear-gradient(to right top, #e9f3ff, #ffffff);
 }
 
 .blog-card[data-category="letters"] {
@@ -27,11 +27,11 @@
 }
 
 .blog-card[data-category="personal-growth"] {
-  background: linear-gradient(to right top, #ffeec1, #ffffff);
+  background: linear-gradient(to right top, #fff9e8, #ffffff);
 }
 
 .blog-card[data-category="education"] {
-  background: linear-gradient(to right top, #e3f8e8, #ffffff);
+  background: linear-gradient(to right top, #f1fff5, #ffffff);
 }
 
 
@@ -68,7 +68,7 @@
 
 
   
-  .date {
+.blog-card p.date {
     font-size: 0.8em;
     color: #888;
   }
