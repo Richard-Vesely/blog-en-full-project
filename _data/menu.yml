@@ -1,0 +1,24 @@
+primary:
+  - title: Home
+    url: "/"
+    weight: 1
+  - title: About me
+    url: "/about-me"
+    weight: 2
+  - title: Blog
+    subfolderitems:
+      - name: Science
+        url: "/blog/science"
+        weight: 1
+      - name: Education
+        url: "/blog/education"
+        weight: 2
+      - name: Personal Growth
+        url: "/blog/personal-growth"
+        weight: 3
+      - name: Letters/Journal
+        url: "/blog/letters-journal"
+        weight: 4
+  - title: Contact
+    url: "/contact"
+    weight: 5
