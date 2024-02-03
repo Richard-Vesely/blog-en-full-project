@@ -53,3 +53,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Define category gallery URLs
+category_urls:
+  science: /blog/science
+  education: /blog/education
+  personal-growth: /blog/personal-growth
+  letters: /blog/letters-journal
