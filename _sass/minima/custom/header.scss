@@ -1,4 +1,13 @@
-
+body, .site-header {
+    border-top: none !important;
+  }
+  
+  /* If there's a margin or padding that might be causing space at the top, you can reset it too */
+  body, .site-header {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
 
 /* Reset list styles for the menu and remove margin and padding */
 .menu {
