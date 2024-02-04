@@ -12,5 +12,42 @@
   {%- endif -%}
 
   {%- include custom-head.html -%}
-  
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  var hamburger = document.querySelector('.hamburger-icon');
+  var menu = document.querySelector('.site-nav ul');
+  var dropdowns = document.querySelectorAll('.dropdown > a');
+
+  hamburger.addEventListener('click', function() {
+    menu.classList.toggle('active'); // Toggle the active class to show/hide the menu
+  });
+
+  // Handling dropdown click to toggle dropdown content visibility
+  dropdowns.forEach(function(dropdownToggle) {
+    dropdownToggle.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent default link behavior
+      
+      var dropdownContent = this.nextElementSibling;
+      var isOpen = dropdownContent.style.display === 'block';
+
+      // Close all other dropdown contents
+      document.querySelectorAll('.dropdown-content').forEach(function(content) {
+        content.style.display = 'none';
+      });
+
+      // Toggle this dropdown
+      dropdownContent.style.display = isOpen ? 'none' : 'block';
+    });
+  });
+
+  // Optional: Close the menu when a link is clicked (excluding dropdown toggles)
+  document.querySelectorAll('.menu a:not(.dropdown > a)').forEach(function(link) {
+    link.addEventListener('click', function() {
+      menu.classList.remove('active');
+    });
+  });
+});
+
+    </script>
+    
 </head>
