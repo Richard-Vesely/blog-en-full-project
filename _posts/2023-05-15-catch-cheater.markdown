@@ -13,7 +13,7 @@ This problem is inspired by a game from the [Primer YouTube channel](https://www
 
 Your goal is to come up with an algorithm that gives you the highest score in a [simple game that you can find here](https://primerlearning.org/). You achieve this by correctly labeling blobs as fair or cheating.
 
-![primer game screenshot](/assets/images/post_related/Thumbnail-257x300.png)
+![primer game screenshot](/assets/images/post_related/Thumbnail-257x300.webp)
 
 Game rules:
 
