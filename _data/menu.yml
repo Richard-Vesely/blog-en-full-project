@@ -19,6 +19,8 @@ primary:
       - name: Letters/Journal
         url: "/blog/letters-journal"
         weight: 4
-  - title: Contact
-    url: "/contact"
-    weight: 5
+  
+#  - title: Contact
+ #   url: "/contact"
+  #  weight: 5
+
