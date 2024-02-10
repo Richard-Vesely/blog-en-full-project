@@ -27,9 +27,12 @@ layout: base
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+    {{ content}}
   </div>
-
+  <!-- The could be     {{ content| newline_to_br  }} "| newline_to_br"is some stuff related to newlines displaying weirdly
+  https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html
+  See the post above
+-->
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
