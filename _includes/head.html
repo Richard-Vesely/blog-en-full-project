@@ -13,6 +13,22 @@
 
   {%- include custom-head.html -%}
   <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+    <!-- for mathjax support -->
+    {% if page.usemathjax %}
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+      </script>
+      <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+  <script>
 document.addEventListener("DOMContentLoaded", function() {
   var hamburger = document.querySelector('.hamburger-icon');
   var menu = document.querySelector('.site-nav ul');
