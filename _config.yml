@@ -32,6 +32,19 @@ github_username:  richard-vesely
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-robotstxt
+
+
+robots:
+  output: true
+  sitemap: https://richard-vesely.github.io/sitemap.xml
+  rules:
+    - user_agent: '*'
+      disallow:
+        - /cgi-bin/
+        - /tmp/
+        - /junk/
+
 
 markdown: kramdown
 mathjax: true

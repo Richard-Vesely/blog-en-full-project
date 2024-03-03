@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-webp" 
   gem "jekyll-katex"
+  gem "jekyll-robotstxt"
 end
 
 
