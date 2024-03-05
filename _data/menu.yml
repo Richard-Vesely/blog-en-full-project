@@ -2,9 +2,9 @@ primary:
   - title: Home
     url: "/"
     weight: 1
-  - title: About me
-    url: "/about-me"
-    weight: 2
+#  - title: About me
+ #   url: "/about-me"
+  #  weight: 2
   - title: Blog
     subfolderitems:
       - name: Science
@@ -20,7 +20,7 @@ primary:
         url: "/blog/letters-journal"
         weight: 4
   
-#  - title: Contact
- #   url: "/contact"
-  #  weight: 5
+  - title: Contact
+    url: "/contact"
+    weight: 5
 
