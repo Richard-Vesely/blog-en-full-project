@@ -51,7 +51,7 @@ _site_path = os.path.join(blog_en_path, "_site")
 shared_content = [
     "_includes",
     "_layouts",
-    "_assets",  # Assuming it's "_assets" and not "_assetsm"
+    "assets",  # Assuming it's "_assets" and not "_assetsm"
     "_plugins",
     "_sass",
     "_config.yml",
