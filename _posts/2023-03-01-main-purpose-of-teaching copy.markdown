@@ -3,6 +3,7 @@ layout: post
 title: "My main purpose in teaching science"
 date: 2024-02-02
 categories: education
+permalink: /education/my-main-purpose-in-teaching-science/
 ---
 
 

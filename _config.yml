@@ -32,6 +32,8 @@ github_username:  richard-vesely
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
 
 markdown: kramdown
 mathjax: true
@@ -93,3 +95,7 @@ webp:
   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
   append_ext: false
 ############################################################
+
+sitemap:
+  changefreq: 'weekly'
+  priority: 0.8
