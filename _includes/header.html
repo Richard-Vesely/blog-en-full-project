@@ -25,6 +25,18 @@
         <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
       {% endif %}
     {% endfor %}
+    <!-- Language Switch -->
+    <li>
+      {% if page.translation_url %}
+        <a href="{{ page.translation_url | absolute_url }}" title="Switch language">
+          <img src="{{ site.data.lang.flag_icon | relative_url }}" alt="Language Flag" style="height: 24px;">
+        </a>
+      {% else %}
+        <a href="{{ site.data.lang.other_language_homepage }}" title="Switch language">
+          <img src="{{ site.data.lang.flag_icon | relative_url }}" alt="Language Flag" style="height: 24px;">
+        </a>
+      {% endif %}
+    </li>
   </ul>
 </nav>
 </div>
