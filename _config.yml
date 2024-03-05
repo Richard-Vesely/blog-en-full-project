@@ -33,6 +33,19 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-robotstxt
+
+
+robots:
+  output: true
+  sitemap: https://richard-vesely.github.io/sitemap.xml
+  rules:
+    - user_agent: '*'
+      disallow:
+        - /cgi-bin/
+        - /tmp/
+        - /junk/
+
 
 
 markdown: kramdown
