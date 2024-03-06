@@ -1,5 +1,5 @@
 @echo off
 pushd _jekyll-shared-content\scripts
-python sync_and_push.py
+python pull_and_sync.py
 popd
 
