@@ -2,8 +2,8 @@
 layout: post
 title: "Fuck being normal"
 date: 2024-05-29
-categories: Personal-growth
-permalink: /Personal-growth/fuck-being-normal
+categories: personal-growth
+permalink: /personal-growth/fuck-being-normal
 ---
 *I like this quote:*  
 *"Statistically speaking a normal person is:*
