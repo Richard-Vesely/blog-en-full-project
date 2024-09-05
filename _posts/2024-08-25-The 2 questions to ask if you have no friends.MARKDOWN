@@ -3,7 +3,6 @@ layout: post
 title: "The two questions to ask yourself when you have no friends"
 date: 2024-08-25
 categories: personal-growth
-permalink: /personal-growth/the-two-questions-to-ask-yourself-when-you-have-no-friends
 ---
 I was fourteen and I was crying. It was the most significant event in my life. But I didn't know that then. I was crying, because of one simple truth. I had no friends. Nobody liked me. Even my dad told me that he likes my sister more than me. And that's when two questions occurred to me. Two questions that completely changed my mind.
 
